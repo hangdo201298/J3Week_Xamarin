@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<StackLayout xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="J3Week.Components.MenuComponent"
+             Padding="10"
+             BackgroundColor="White"
+             Spacing="10">
+    <StackLayout Orientation="Horizontal" BackgroundColor="#0E725E">
+        <Image Source="dp" WidthRequest="70" HeightRequest="70" Margin="15,10,0,10" HorizontalOptions="Start" />
+        <Label Text="Hello, Hang" TextColor="White" FontSize="Large" FontAttributes="Bold, Italic" Margin="10,0,0,0" 
+                       VerticalOptions="Center"/>
+    </StackLayout>
+
+    <Label Text="Profile" FontAttributes="Bold" FontSize="Medium" TextColor="Black" Margin="10,0,0,10">
+        <Label.GestureRecognizers>
+            <TapGestureRecognizer Tapped="Profile"/>
+        </Label.GestureRecognizers>
+    </Label>
+    <Label Text="Friends" FontAttributes="Bold" FontSize="Medium" TextColor="Black" Margin="0,0,0,10">
+        <Label.GestureRecognizers>
+            <TapGestureRecognizer Tapped="Profile"/>
+        </Label.GestureRecognizers>
+    </Label>
+    <Label Text="Photo" FontAttributes="Bold" FontSize="Medium" TextColor="Black" Margin="0,0,0,10">
+        <Label.GestureRecognizers>
+            <TapGestureRecognizer Tapped="Profile"/>
+        </Label.GestureRecognizers>
+    </Label>
+    <Label Text="Post" FontAttributes="Bold" FontSize="Medium" TextColor="Black" Margin="0,0,0,10">
+        <Label.GestureRecognizers>
+            <TapGestureRecognizer Tapped="Profile"/>
+        </Label.GestureRecognizers>
+    </Label>
+</StackLayout>
